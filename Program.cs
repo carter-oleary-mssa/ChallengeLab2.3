@@ -5,8 +5,7 @@ int width = Convert.ToInt32(Console.ReadLine());
 
 for(int i = 0; i < width; i++)
 {
-    int row = width - i;
-    for(int j = 0; j < row; j++)
+    for(int j = 0; j < width-i; j++)
     {
         Console.Write(display);
     }
